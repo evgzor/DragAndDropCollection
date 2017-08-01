@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F029FEAF1F148F1000246786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F029FEAE1F148F1000246786 /* AppDelegate.swift */; };
+		F029FEB41F148F1000246786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F029FEB21F148F1000246786 /* Main.storyboard */; };
+		F029FEB61F148F1000246786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F029FEB51F148F1000246786 /* Assets.xcassets */; };
+		F029FEB91F148F1000246786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F029FEB71F148F1000246786 /* LaunchScreen.storyboard */; };
+		F029FEC41F148F1000246786 /* DragAndDropCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F029FEC31F148F1000246786 /* DragAndDropCollectionTests.swift */; };
+		F029FECF1F148F1000246786 /* DragAndDropCollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F029FECE1F148F1000246786 /* DragAndDropCollectionUITests.swift */; };
+		F045D8781F19D6DB00ADF92F /* ViewControllerCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F045D8771F19D6DB00ADF92F /* ViewControllerCollectionViewDelegate.swift */; };
+		F045D8791F19D6DB00ADF92F /* ViewControllerCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F045D8771F19D6DB00ADF92F /* ViewControllerCollectionViewDelegate.swift */; };
+		F045D87A1F19D6DB00ADF92F /* ViewControllerCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F045D8771F19D6DB00ADF92F /* ViewControllerCollectionViewDelegate.swift */; };
+		F045D87C1F19D7CC00ADF92F /* ViewControllerDragAndDropDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F045D87B1F19D7CC00ADF92F /* ViewControllerDragAndDropDelegate.swift */; };
+		F045D87D1F19D7CC00ADF92F /* ViewControllerDragAndDropDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F045D87B1F19D7CC00ADF92F /* ViewControllerDragAndDropDelegate.swift */; };
+		F045D87E1F19D7CC00ADF92F /* ViewControllerDragAndDropDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F045D87B1F19D7CC00ADF92F /* ViewControllerDragAndDropDelegate.swift */; };
+		F07E60261F19FE3C004E1053 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07E60251F19FE3C004E1053 /* Loader.swift */; };
+		F07E60271F19FE3C004E1053 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07E60251F19FE3C004E1053 /* Loader.swift */; };
+		F07E60281F19FE3C004E1053 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07E60251F19FE3C004E1053 /* Loader.swift */; };
+		F0980E7E1F188EA000CEBC62 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980E7D1F188EA000CEBC62 /* ItemModel.swift */; };
+		F0980E7F1F188EA000CEBC62 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980E7D1F188EA000CEBC62 /* ItemModel.swift */; };
+		F0980E801F188EA000CEBC62 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980E7D1F188EA000CEBC62 /* ItemModel.swift */; };
+		F0980E8C1F18B26F00CEBC62 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980E8A1F18B26F00CEBC62 /* ImageCache.swift */; };
+		F0980E8D1F18B26F00CEBC62 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980E8A1F18B26F00CEBC62 /* ImageCache.swift */; };
+		F0980E8E1F18B26F00CEBC62 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980E8A1F18B26F00CEBC62 /* ImageCache.swift */; };
+		F0980E8F1F18B26F00CEBC62 /* ImageCacheMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980E8B1F18B26F00CEBC62 /* ImageCacheMain.swift */; };
+		F0980E901F18B26F00CEBC62 /* ImageCacheMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980E8B1F18B26F00CEBC62 /* ImageCacheMain.swift */; };
+		F0980E911F18B26F00CEBC62 /* ImageCacheMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980E8B1F18B26F00CEBC62 /* ImageCacheMain.swift */; };
+		F0980E971F18B3BF00CEBC62 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980E961F18B3BF00CEBC62 /* ImageLoader.swift */; };
+		F0980E981F18B3BF00CEBC62 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980E961F18B3BF00CEBC62 /* ImageLoader.swift */; };
+		F0980E991F18B3BF00CEBC62 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980E961F18B3BF00CEBC62 /* ImageLoader.swift */; };
+		F0980E9F1F18B41A00CEBC62 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980E9E1F18B41A00CEBC62 /* Fetcher.swift */; };
+		F0980EA01F18B41A00CEBC62 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980E9E1F18B41A00CEBC62 /* Fetcher.swift */; };
+		F0980EA11F18B41A00CEBC62 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980E9E1F18B41A00CEBC62 /* Fetcher.swift */; };
+		F0980EA31F18B43300CEBC62 /* model.json in Resources */ = {isa = PBXBuildFile; fileRef = F0980EA21F18B43300CEBC62 /* model.json */; };
+		F0980EA41F18B43300CEBC62 /* model.json in Resources */ = {isa = PBXBuildFile; fileRef = F0980EA21F18B43300CEBC62 /* model.json */; };
+		F0980EA51F18B43300CEBC62 /* model.json in Resources */ = {isa = PBXBuildFile; fileRef = F0980EA21F18B43300CEBC62 /* model.json */; };
+		F0980EA71F19310800CEBC62 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980EA61F19310800CEBC62 /* Tools.swift */; };
+		F0980EA81F19310800CEBC62 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980EA61F19310800CEBC62 /* Tools.swift */; };
+		F0980EA91F19310800CEBC62 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980EA61F19310800CEBC62 /* Tools.swift */; };
+		F0980EB01F19321200CEBC62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980EAF1F19321200CEBC62 /* ViewController.swift */; };
+		F0980EB11F19321200CEBC62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980EAF1F19321200CEBC62 /* ViewController.swift */; };
+		F0980EB21F19321200CEBC62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980EAF1F19321200CEBC62 /* ViewController.swift */; };
+		F0980EB51F19323300CEBC62 /* DraggableLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980EB41F19323300CEBC62 /* DraggableLayout.swift */; };
+		F0980EB61F19323300CEBC62 /* DraggableLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980EB41F19323300CEBC62 /* DraggableLayout.swift */; };
+		F0980EB71F19323300CEBC62 /* DraggableLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980EB41F19323300CEBC62 /* DraggableLayout.swift */; };
+		F0980ED41F1932E700CEBC62 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980ECF1F1932E700CEBC62 /* BasicCell.swift */; };
+		F0980ED51F1932E700CEBC62 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980ECF1F1932E700CEBC62 /* BasicCell.swift */; };
+		F0980ED61F1932E700CEBC62 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980ECF1F1932E700CEBC62 /* BasicCell.swift */; };
+		F0980ED71F1932E700CEBC62 /* DragCollectionViewRasterize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980ED01F1932E700CEBC62 /* DragCollectionViewRasterize.swift */; };
+		F0980ED81F1932E700CEBC62 /* DragCollectionViewRasterize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980ED01F1932E700CEBC62 /* DragCollectionViewRasterize.swift */; };
+		F0980ED91F1932E700CEBC62 /* DragCollectionViewRasterize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980ED01F1932E700CEBC62 /* DragCollectionViewRasterize.swift */; };
+		F0980EDA1F1932E700CEBC62 /* DragDropCollectionAutoScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980ED11F1932E700CEBC62 /* DragDropCollectionAutoScroll.swift */; };
+		F0980EDB1F1932E700CEBC62 /* DragDropCollectionAutoScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980ED11F1932E700CEBC62 /* DragDropCollectionAutoScroll.swift */; };
+		F0980EDC1F1932E700CEBC62 /* DragDropCollectionAutoScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980ED11F1932E700CEBC62 /* DragDropCollectionAutoScroll.swift */; };
+		F0980EDD1F1932E700CEBC62 /* DragDropCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980ED21F1932E700CEBC62 /* DragDropCollectionView.swift */; };
+		F0980EDE1F1932E700CEBC62 /* DragDropCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980ED21F1932E700CEBC62 /* DragDropCollectionView.swift */; };
+		F0980EDF1F1932E700CEBC62 /* DragDropCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980ED21F1932E700CEBC62 /* DragDropCollectionView.swift */; };
+		F0980EE01F1932E700CEBC62 /* DrapDropCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980ED31F1932E700CEBC62 /* DrapDropCollectionViewDelegate.swift */; };
+		F0980EE11F1932E700CEBC62 /* DrapDropCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980ED31F1932E700CEBC62 /* DrapDropCollectionViewDelegate.swift */; };
+		F0980EE21F1932E700CEBC62 /* DrapDropCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980ED31F1932E700CEBC62 /* DrapDropCollectionViewDelegate.swift */; };
+		F0980EE41F19547700CEBC62 /* ItemsModelLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980EE31F19547700CEBC62 /* ItemsModelLoader.swift */; };
+		F0980EE51F19547700CEBC62 /* ItemsModelLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980EE31F19547700CEBC62 /* ItemsModelLoader.swift */; };
+		F0980EE61F19547700CEBC62 /* ItemsModelLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0980EE31F19547700CEBC62 /* ItemsModelLoader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F029FEC01F148F1000246786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F029FEA31F148F1000246786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F029FEAA1F148F1000246786;
+			remoteInfo = DragAndDropCollection;
+		};
+		F029FECB1F148F1000246786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F029FEA31F148F1000246786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F029FEAA1F148F1000246786;
+			remoteInfo = DragAndDropCollection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F029FEAB1F148F1000246786 /* DragAndDropCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragAndDropCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F029FEAE1F148F1000246786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F029FEB31F148F1000246786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F029FEB51F148F1000246786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F029FEB81F148F1000246786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F029FEBA1F148F1000246786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F029FEBF1F148F1000246786 /* DragAndDropCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragAndDropCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F029FEC31F148F1000246786 /* DragAndDropCollectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropCollectionTests.swift; sourceTree = "<group>"; };
+		F029FEC51F148F1000246786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F029FECA1F148F1000246786 /* DragAndDropCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragAndDropCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F029FECE1F148F1000246786 /* DragAndDropCollectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropCollectionUITests.swift; sourceTree = "<group>"; };
+		F029FED01F148F1000246786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F045D8771F19D6DB00ADF92F /* ViewControllerCollectionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		F045D87B1F19D7CC00ADF92F /* ViewControllerDragAndDropDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerDragAndDropDelegate.swift; sourceTree = "<group>"; };
+		F07E60251F19FE3C004E1053 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Loader.swift; path = ServiceProvider/Loader/Loader.swift; sourceTree = "<group>"; };
+		F0980E7D1F188EA000CEBC62 /* ItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemModel.swift; path = Model/ItemModel.swift; sourceTree = "<group>"; };
+		F0980E8A1F18B26F00CEBC62 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		F0980E8B1F18B26F00CEBC62 /* ImageCacheMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCacheMain.swift; sourceTree = "<group>"; };
+		F0980E961F18B3BF00CEBC62 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = ServiceProvider/Loader/ImageLoader.swift; sourceTree = "<group>"; };
+		F0980E9E1F18B41A00CEBC62 /* Fetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fetcher.swift; path = ServiceProvider/DataFetcher/Fetcher.swift; sourceTree = "<group>"; };
+		F0980EA21F18B43300CEBC62 /* model.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = model.json; path = Model/model.json; sourceTree = "<group>"; };
+		F0980EA61F19310800CEBC62 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tools.swift; path = Tools/Tools.swift; sourceTree = "<group>"; };
+		F0980EAF1F19321200CEBC62 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0980EB41F19323300CEBC62 /* DraggableLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableLayout.swift; sourceTree = "<group>"; };
+		F0980ECF1F1932E700CEBC62 /* BasicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
+		F0980ED01F1932E700CEBC62 /* DragCollectionViewRasterize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragCollectionViewRasterize.swift; sourceTree = "<group>"; };
+		F0980ED11F1932E700CEBC62 /* DragDropCollectionAutoScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragDropCollectionAutoScroll.swift; sourceTree = "<group>"; };
+		F0980ED21F1932E700CEBC62 /* DragDropCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragDropCollectionView.swift; sourceTree = "<group>"; };
+		F0980ED31F1932E700CEBC62 /* DrapDropCollectionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrapDropCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		F0980EE31F19547700CEBC62 /* ItemsModelLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemsModelLoader.swift; path = ServiceProvider/Loader/ItemsModelLoader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F029FEA81F148F1000246786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F029FEBC1F148F1000246786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F029FEC71F148F1000246786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F029FEA21F148F1000246786 = {
+			isa = PBXGroup;
+			children = (
+				F029FEAD1F148F1000246786 /* DragAndDropCollection */,
+				F029FEC21F148F1000246786 /* DragAndDropCollectionTests */,
+				F029FECD1F148F1000246786 /* DragAndDropCollectionUITests */,
+				F029FEAC1F148F1000246786 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F029FEAC1F148F1000246786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F029FEAB1F148F1000246786 /* DragAndDropCollection.app */,
+				F029FEBF1F148F1000246786 /* DragAndDropCollectionTests.xctest */,
+				F029FECA1F148F1000246786 /* DragAndDropCollectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F029FEAD1F148F1000246786 /* DragAndDropCollection */ = {
+			isa = PBXGroup;
+			children = (
+				F0980EB81F19324000CEBC62 /* Model */,
+				F029FEAE1F148F1000246786 /* AppDelegate.swift */,
+				F0980ECE1F1932E700CEBC62 /* Views */,
+				F0980EB31F19323300CEBC62 /* Layouts */,
+				F0980EAE1F19321200CEBC62 /* Controllers */,
+				F0980EAB1F19317200CEBC62 /* ServiceProvider */,
+				F0980EAA1F19314600CEBC62 /* Tools */,
+				F0980EE71F19559900CEBC62 /* Storyboards & Xibs */,
+				F029FEB51F148F1000246786 /* Assets.xcassets */,
+				F029FEBA1F148F1000246786 /* Info.plist */,
+			);
+			path = DragAndDropCollection;
+			sourceTree = "<group>";
+		};
+		F029FEC21F148F1000246786 /* DragAndDropCollectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				F029FEC31F148F1000246786 /* DragAndDropCollectionTests.swift */,
+				F029FEC51F148F1000246786 /* Info.plist */,
+			);
+			path = DragAndDropCollectionTests;
+			sourceTree = "<group>";
+		};
+		F029FECD1F148F1000246786 /* DragAndDropCollectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F029FECE1F148F1000246786 /* DragAndDropCollectionUITests.swift */,
+				F029FED01F148F1000246786 /* Info.plist */,
+			);
+			path = DragAndDropCollectionUITests;
+			sourceTree = "<group>";
+		};
+		F0980E891F18B26F00CEBC62 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				F0980E8A1F18B26F00CEBC62 /* ImageCache.swift */,
+				F0980E8B1F18B26F00CEBC62 /* ImageCacheMain.swift */,
+			);
+			name = Cache;
+			path = ServiceProvider/Cache;
+			sourceTree = "<group>";
+		};
+		F0980EAA1F19314600CEBC62 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F0980EA61F19310800CEBC62 /* Tools.swift */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		F0980EAB1F19317200CEBC62 /* ServiceProvider */ = {
+			isa = PBXGroup;
+			children = (
+				F0980EAD1F1931B400CEBC62 /* Loader */,
+				F0980EAC1F1931A000CEBC62 /* DataFetcher */,
+				F0980E891F18B26F00CEBC62 /* Cache */,
+			);
+			name = ServiceProvider;
+			sourceTree = "<group>";
+		};
+		F0980EAC1F1931A000CEBC62 /* DataFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				F0980E9E1F18B41A00CEBC62 /* Fetcher.swift */,
+			);
+			name = DataFetcher;
+			sourceTree = "<group>";
+		};
+		F0980EAD1F1931B400CEBC62 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				F07E60251F19FE3C004E1053 /* Loader.swift */,
+				F0980EE31F19547700CEBC62 /* ItemsModelLoader.swift */,
+				F0980E961F18B3BF00CEBC62 /* ImageLoader.swift */,
+			);
+			name = Loader;
+			sourceTree = "<group>";
+		};
+		F0980EAE1F19321200CEBC62 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0980EAF1F19321200CEBC62 /* ViewController.swift */,
+				F045D8771F19D6DB00ADF92F /* ViewControllerCollectionViewDelegate.swift */,
+				F045D87B1F19D7CC00ADF92F /* ViewControllerDragAndDropDelegate.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F0980EB31F19323300CEBC62 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				F0980EB41F19323300CEBC62 /* DraggableLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		F0980EB81F19324000CEBC62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0980E7D1F188EA000CEBC62 /* ItemModel.swift */,
+				F0980EA21F18B43300CEBC62 /* model.json */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F0980ECE1F1932E700CEBC62 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0980ECF1F1932E700CEBC62 /* BasicCell.swift */,
+				F0980ED01F1932E700CEBC62 /* DragCollectionViewRasterize.swift */,
+				F0980ED11F1932E700CEBC62 /* DragDropCollectionAutoScroll.swift */,
+				F0980ED21F1932E700CEBC62 /* DragDropCollectionView.swift */,
+				F0980ED31F1932E700CEBC62 /* DrapDropCollectionViewDelegate.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F0980EE71F19559900CEBC62 /* Storyboards & Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				F029FEB21F148F1000246786 /* Main.storyboard */,
+				F029FEB71F148F1000246786 /* LaunchScreen.storyboard */,
+			);
+			name = "Storyboards & Xibs";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F029FEAA1F148F1000246786 /* DragAndDropCollection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F029FED31F148F1000246786 /* Build configuration list for PBXNativeTarget "DragAndDropCollection" */;
+			buildPhases = (
+				F029FEA71F148F1000246786 /* Sources */,
+				F029FEA81F148F1000246786 /* Frameworks */,
+				F029FEA91F148F1000246786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragAndDropCollection;
+			productName = DragAndDropCollection;
+			productReference = F029FEAB1F148F1000246786 /* DragAndDropCollection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F029FEBE1F148F1000246786 /* DragAndDropCollectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F029FED61F148F1000246786 /* Build configuration list for PBXNativeTarget "DragAndDropCollectionTests" */;
+			buildPhases = (
+				F029FEBB1F148F1000246786 /* Sources */,
+				F029FEBC1F148F1000246786 /* Frameworks */,
+				F029FEBD1F148F1000246786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F029FEC11F148F1000246786 /* PBXTargetDependency */,
+			);
+			name = DragAndDropCollectionTests;
+			productName = DragAndDropCollectionTests;
+			productReference = F029FEBF1F148F1000246786 /* DragAndDropCollectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F029FEC91F148F1000246786 /* DragAndDropCollectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F029FED91F148F1000246786 /* Build configuration list for PBXNativeTarget "DragAndDropCollectionUITests" */;
+			buildPhases = (
+				F029FEC61F148F1000246786 /* Sources */,
+				F029FEC71F148F1000246786 /* Frameworks */,
+				F029FEC81F148F1000246786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F029FECC1F148F1000246786 /* PBXTargetDependency */,
+			);
+			name = DragAndDropCollectionUITests;
+			productName = DragAndDropCollectionUITests;
+			productReference = F029FECA1F148F1000246786 /* DragAndDropCollectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F029FEA31F148F1000246786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Eugene Zorin";
+				TargetAttributes = {
+					F029FEAA1F148F1000246786 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					F029FEBE1F148F1000246786 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F029FEAA1F148F1000246786;
+					};
+					F029FEC91F148F1000246786 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F029FEAA1F148F1000246786;
+					};
+				};
+			};
+			buildConfigurationList = F029FEA61F148F1000246786 /* Build configuration list for PBXProject "DragAndDropCollection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F029FEA21F148F1000246786;
+			productRefGroup = F029FEAC1F148F1000246786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F029FEAA1F148F1000246786 /* DragAndDropCollection */,
+				F029FEBE1F148F1000246786 /* DragAndDropCollectionTests */,
+				F029FEC91F148F1000246786 /* DragAndDropCollectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F029FEA91F148F1000246786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F029FEB91F148F1000246786 /* LaunchScreen.storyboard in Resources */,
+				F029FEB61F148F1000246786 /* Assets.xcassets in Resources */,
+				F029FEB41F148F1000246786 /* Main.storyboard in Resources */,
+				F0980EA31F18B43300CEBC62 /* model.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F029FEBD1F148F1000246786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0980EA41F18B43300CEBC62 /* model.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F029FEC81F148F1000246786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0980EA51F18B43300CEBC62 /* model.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F029FEA71F148F1000246786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0980E8C1F18B26F00CEBC62 /* ImageCache.swift in Sources */,
+				F0980EDD1F1932E700CEBC62 /* DragDropCollectionView.swift in Sources */,
+				F0980E7E1F188EA000CEBC62 /* ItemModel.swift in Sources */,
+				F0980E9F1F18B41A00CEBC62 /* Fetcher.swift in Sources */,
+				F0980ED41F1932E700CEBC62 /* BasicCell.swift in Sources */,
+				F045D87C1F19D7CC00ADF92F /* ViewControllerDragAndDropDelegate.swift in Sources */,
+				F07E60261F19FE3C004E1053 /* Loader.swift in Sources */,
+				F0980EB51F19323300CEBC62 /* DraggableLayout.swift in Sources */,
+				F0980EE41F19547700CEBC62 /* ItemsModelLoader.swift in Sources */,
+				F0980E8F1F18B26F00CEBC62 /* ImageCacheMain.swift in Sources */,
+				F0980EE01F1932E700CEBC62 /* DrapDropCollectionViewDelegate.swift in Sources */,
+				F0980EDA1F1932E700CEBC62 /* DragDropCollectionAutoScroll.swift in Sources */,
+				F0980ED71F1932E700CEBC62 /* DragCollectionViewRasterize.swift in Sources */,
+				F0980EA71F19310800CEBC62 /* Tools.swift in Sources */,
+				F029FEAF1F148F1000246786 /* AppDelegate.swift in Sources */,
+				F0980EB01F19321200CEBC62 /* ViewController.swift in Sources */,
+				F045D8781F19D6DB00ADF92F /* ViewControllerCollectionViewDelegate.swift in Sources */,
+				F0980E971F18B3BF00CEBC62 /* ImageLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F029FEBB1F148F1000246786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0980EA01F18B41A00CEBC62 /* Fetcher.swift in Sources */,
+				F0980EDE1F1932E700CEBC62 /* DragDropCollectionView.swift in Sources */,
+				F0980EDB1F1932E700CEBC62 /* DragDropCollectionAutoScroll.swift in Sources */,
+				F0980E8D1F18B26F00CEBC62 /* ImageCache.swift in Sources */,
+				F0980EE11F1932E700CEBC62 /* DrapDropCollectionViewDelegate.swift in Sources */,
+				F0980E7F1F188EA000CEBC62 /* ItemModel.swift in Sources */,
+				F045D87D1F19D7CC00ADF92F /* ViewControllerDragAndDropDelegate.swift in Sources */,
+				F07E60271F19FE3C004E1053 /* Loader.swift in Sources */,
+				F0980EB61F19323300CEBC62 /* DraggableLayout.swift in Sources */,
+				F0980EE51F19547700CEBC62 /* ItemsModelLoader.swift in Sources */,
+				F0980EB11F19321200CEBC62 /* ViewController.swift in Sources */,
+				F0980E981F18B3BF00CEBC62 /* ImageLoader.swift in Sources */,
+				F029FEC41F148F1000246786 /* DragAndDropCollectionTests.swift in Sources */,
+				F0980E901F18B26F00CEBC62 /* ImageCacheMain.swift in Sources */,
+				F0980ED51F1932E700CEBC62 /* BasicCell.swift in Sources */,
+				F0980ED81F1932E700CEBC62 /* DragCollectionViewRasterize.swift in Sources */,
+				F045D8791F19D6DB00ADF92F /* ViewControllerCollectionViewDelegate.swift in Sources */,
+				F0980EA81F19310800CEBC62 /* Tools.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F029FEC61F148F1000246786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0980EA11F18B41A00CEBC62 /* Fetcher.swift in Sources */,
+				F0980EDF1F1932E700CEBC62 /* DragDropCollectionView.swift in Sources */,
+				F0980EDC1F1932E700CEBC62 /* DragDropCollectionAutoScroll.swift in Sources */,
+				F0980E8E1F18B26F00CEBC62 /* ImageCache.swift in Sources */,
+				F0980EE21F1932E700CEBC62 /* DrapDropCollectionViewDelegate.swift in Sources */,
+				F0980E801F188EA000CEBC62 /* ItemModel.swift in Sources */,
+				F045D87E1F19D7CC00ADF92F /* ViewControllerDragAndDropDelegate.swift in Sources */,
+				F07E60281F19FE3C004E1053 /* Loader.swift in Sources */,
+				F0980EB71F19323300CEBC62 /* DraggableLayout.swift in Sources */,
+				F0980EE61F19547700CEBC62 /* ItemsModelLoader.swift in Sources */,
+				F0980EB21F19321200CEBC62 /* ViewController.swift in Sources */,
+				F0980E991F18B3BF00CEBC62 /* ImageLoader.swift in Sources */,
+				F029FECF1F148F1000246786 /* DragAndDropCollectionUITests.swift in Sources */,
+				F0980E911F18B26F00CEBC62 /* ImageCacheMain.swift in Sources */,
+				F0980ED61F1932E700CEBC62 /* BasicCell.swift in Sources */,
+				F0980ED91F1932E700CEBC62 /* DragCollectionViewRasterize.swift in Sources */,
+				F045D87A1F19D6DB00ADF92F /* ViewControllerCollectionViewDelegate.swift in Sources */,
+				F0980EA91F19310800CEBC62 /* Tools.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F029FEC11F148F1000246786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F029FEAA1F148F1000246786 /* DragAndDropCollection */;
+			targetProxy = F029FEC01F148F1000246786 /* PBXContainerItemProxy */;
+		};
+		F029FECC1F148F1000246786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F029FEAA1F148F1000246786 /* DragAndDropCollection */;
+			targetProxy = F029FECB1F148F1000246786 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F029FEB21F148F1000246786 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F029FEB31F148F1000246786 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F029FEB71F148F1000246786 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F029FEB81F148F1000246786 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F029FED11F148F1000246786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F029FED21F148F1000246786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F029FED41F148F1000246786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DragAndDropCollection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zorin.DragAndDropCollection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F029FED51F148F1000246786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DragAndDropCollection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zorin.DragAndDropCollection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F029FED71F148F1000246786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DragAndDropCollectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zorin.DragAndDropCollectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragAndDropCollection.app/DragAndDropCollection";
+			};
+			name = Debug;
+		};
+		F029FED81F148F1000246786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DragAndDropCollectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zorin.DragAndDropCollectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragAndDropCollection.app/DragAndDropCollection";
+			};
+			name = Release;
+		};
+		F029FEDA1F148F1000246786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DragAndDropCollectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zorin.DragAndDropCollectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DragAndDropCollection;
+			};
+			name = Debug;
+		};
+		F029FEDB1F148F1000246786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DragAndDropCollectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zorin.DragAndDropCollectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DragAndDropCollection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F029FEA61F148F1000246786 /* Build configuration list for PBXProject "DragAndDropCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F029FED11F148F1000246786 /* Debug */,
+				F029FED21F148F1000246786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F029FED31F148F1000246786 /* Build configuration list for PBXNativeTarget "DragAndDropCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F029FED41F148F1000246786 /* Debug */,
+				F029FED51F148F1000246786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F029FED61F148F1000246786 /* Build configuration list for PBXNativeTarget "DragAndDropCollectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F029FED71F148F1000246786 /* Debug */,
+				F029FED81F148F1000246786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F029FED91F148F1000246786 /* Build configuration list for PBXNativeTarget "DragAndDropCollectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F029FEDA1F148F1000246786 /* Debug */,
+				F029FEDB1F148F1000246786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F029FEA31F148F1000246786 /* Project object */;
+}
